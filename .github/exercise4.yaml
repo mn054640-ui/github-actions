@@ -5,10 +5,10 @@ on:
             - dev
 
 jobs:
-    learning:
+    exercise4:
         runs-on: ubuntu-latest
         steps:
             - name: learning
-              run: "echo hello how are you "
-            - name: list env
+              run: "echo thanks for pull request" 
+            - name: message
               run: printenv
