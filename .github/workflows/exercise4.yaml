@@ -12,5 +12,6 @@ jobs:
               run: "echo thanks  for sending changes"
             - name: list env
               run: printenv
-              
-              
+            - name: check node version
+              run: node --version
+
