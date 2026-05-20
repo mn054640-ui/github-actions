@@ -10,11 +10,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: learning
-<<<<<<<< HEAD:.github/workflows/example2.yml
-              run: "echo Nadeem is a Devops Engineer"
-            - name: list env
-========
-              run: "echo thanks for pull request" 
-            - name: message
->>>>>>>> dev:.github/exercise4.yaml
               run: printenv
