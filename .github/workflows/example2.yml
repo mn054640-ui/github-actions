@@ -6,10 +6,8 @@ on:
             - main
 
 jobs:
-    learning:
+    exercise4:
         runs-on: ubuntu-latest
         steps:
             - name: learning
-              run: "echo Nadeem is a Devops Engineer"
-            - name: list env
               run: printenv
