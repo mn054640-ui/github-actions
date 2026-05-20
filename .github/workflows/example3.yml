@@ -1,13 +1,13 @@
 ---
-name: exercise3
+name: exercise-3
 
 on:
     push:
         branches:
             - dev
-        
+
 jobs:
-    exercise3:
+    exercise-3:
         runs-on: ubuntu-latest
         steps:
             - name: ping test
