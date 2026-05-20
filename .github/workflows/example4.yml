@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: message
-              run: echo "Thanks for me pull request"
+              run: echo "Thanks for sending me a pull request"
